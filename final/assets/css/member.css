@@ -1,0 +1,65 @@
+/*會員介面*/
+.rgd input {
+  font-size: 12pt;
+}
+
+.rgd {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.member-data {
+  width: 1000px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.rgd .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 750px;
+  font-size: 13pt;
+}
+
+
+
+.lgbtn {
+  background-color: #84C1FF;
+  color: white;
+  border: none;
+  padding: 14px 20px;
+  margin: 8px 0;
+  width: 100px;
+
+}
+
+.field-title {
+  margin: 6px;
+  padding: 14px;
+  width: 100px;
+  text-align: right;
+}
+
+.field-info {
+  width: 550px;
+  text-align: left;
+}
+
+
+label {
+  padding: 0 5px;
+}
+
+.rg-header {
+  width: 730px;
+  margin: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90px;
+}
